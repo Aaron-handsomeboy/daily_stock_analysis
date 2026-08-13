@@ -796,7 +796,7 @@ class Config:
 
     # Anthropic Claude API（备选，当 Gemini 不可用时使用）
     anthropic_api_key: Optional[str] = None
-    anthropic_model: str = "claude-sonnet-4-6"  # Claude model name
+    anthropic_model: str = "claude-sonnet-5"  # Claude model name
     anthropic_temperature: float = 0.7  # Anthropic temperature (0.0-1.0, default 0.7)
     anthropic_max_tokens: int = 8192  # Max tokens for Anthropic responses
 
